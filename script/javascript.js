@@ -42,8 +42,6 @@ var input = document.getElementById("mensaje");
         }
         //Setear el text area para mostrar el mensaje encriptado;
         document.getElementById("encriptado").innerHTML = mEncriptado;
-        //Vaciar el aviso de copiado
-        document.getElementById("aviso").innerText="";
         advertencia.innerText="";
       }
     }
@@ -93,8 +91,6 @@ var input = document.getElementById("mensaje");
 
       //Setear el text area para mostrar el mensaje encriptado;
       document.getElementById("encriptado").innerHTML = desencriptado;
-      //Vaciar el aviso de copiado
-      document.getElementById("aviso").innerText="";
       advertencia.innerText="";
     }
     }
@@ -122,7 +118,6 @@ var input = document.getElementById("mensaje");
     function limpiar(){
       document.getElementById("mensaje").value = "";
       document.getElementById("encriptado").innerHTML = "";
-      document.getElementById("aviso").innerText="";
       advertencia.innerText="";
 
     }
