@@ -2,15 +2,16 @@ body{
     background-color:mediumpurple;
     background-image: url("../img/pexels-jess-loiterton-4784378.jpg");
     background-size: cover;
+    
 }
 header{
     margin-top: 10%;
 }
 .titulo{
     color:rgb(88, 49, 65);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-inline: 10%;
-    padding: 50px 20px 20px 20px;;
+    padding: 30px;
     background-color:rgb(235, 168, 235);
 }
 .line{
@@ -42,7 +43,7 @@ header{
     background-color:rgb(238, 190, 220);
     color:rgb(88, 49, 65);
     margin-inline:10%;
-    padding: 40px;
+    padding: 30px;
     margin-bottom: 10%;
     
 }
@@ -60,6 +61,8 @@ header{
 }
 #mensaje:hover{
     border-color: burlywood;
+    box-shadow: 0px 0px 20px #f8b117;
+    background-color: #f7c081;
 }
 #mensaje:active{
     border-color: rgb(189, 151, 80);
@@ -99,9 +102,12 @@ button{
 }
 button:hover{
     border-color: darksalmon;
+    box-shadow: 0px 0px 20px #f8b117;
+    background-color: #f7c081;
+    color:purple;
 } 
 button:active{
-    background-color: rgb(223, 192, 241);
+    background-color: rgb(241, 210, 192);
 } 
 .botonera{
     box-sizing: inline;

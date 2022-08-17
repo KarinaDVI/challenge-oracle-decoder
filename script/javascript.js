@@ -103,20 +103,19 @@ var input = document.getElementById("mensaje");
       /* Obtiene el texto */
       var copyText = document.getElementById("encriptado");
       var text = copyText.innerHTML;
-      document.getElementById("mensaje").value = text;
 
         if (document.getElementById("encriptado").innerText==""){
-          advertencia.innerText="No hay nada para copiar";
+          advertencia.innerText="No hay nada para copiar hacia el input";
         }else{
 
+      document.getElementById("mensaje").value = text;
       /* Selecciona el campo de texto 
       copyText.select();
       copyText.setSelectionRange(0, 99999); /* For mobile devices */
       /* Copia el texto desde el campo de texto */
       navigator.clipboard.writeText(text);
       /* Avisa el copiado */
-      document.getElementById("aviso").innerHTML="Copiado al input y al portapapeles"
-      advertencia.innerText="";
+      advertencia.innerHTML="Copiado en el input y al portapapeles"
     }
   }
   
