@@ -56,7 +56,7 @@ header{
     border-color:rgb(182, 112, 247);
     padding:30px;
     font-size: medium;
-    word-break:break-all;
+    margin-bottom:3px;
 }
 #mensaje:hover{
     border-color: burlywood;
