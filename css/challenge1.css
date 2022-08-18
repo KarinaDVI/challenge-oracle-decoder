@@ -80,7 +80,7 @@ header{
     word-break:break-all;
 }
 #advertencia{
-    font-size: 25px;
+    font-size: larger;
     color: #4f05d8;
     font-weight: bold;
 }
